@@ -7,3 +7,12 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+@media only screen and (max-width: 600px) {
+  .header {
+    display: block;
+    padding-top: 2vh;
+    font-size: calc(20px + 2vmin);
+    min-height: 15vh;
+  }
+}
